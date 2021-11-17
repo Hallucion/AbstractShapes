@@ -16,12 +16,7 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    /**
-     * Implement the inherited abstract area() method
-     * (this must be implemented, otherwise an error is reported)
-     *
-     * @return area of a circle
-     */
+
     @Override
     public double area() {
         return Math.PI * this.radius * this.radius;

@@ -53,7 +53,7 @@ public abstract class Shape {
     public void setY(int y) { this.y = y; }
 
     public String toString() {
-        return this.getClass().getName() +
+        return this.getClass().getSimpleName() +
                 "(x=" + this.x + ",y=" + this.y + ")";
     }
 }
